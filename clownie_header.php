@@ -24,9 +24,7 @@
 					<li>
 						<a href="http://www.rossfamilyministries.com">Home of RFM</a>
 					</li>
-					<li>
-						<a href=href="http://www.rossfamilyministries.com">About</a>
-					</li>
+					
 					
 				</ul>
 			</div>

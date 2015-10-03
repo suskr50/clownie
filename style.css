@@ -1,3 +1,7 @@
+/* Style CSS for Clownie.org */
+
+
+
 /*  Body CSS */
 
 body {
@@ -6,22 +10,77 @@ body {
 	padding: 0;
 	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
 	color: #000000;
+ background-color:#F7F2E0;
+
+  background-size:cover;
 }
+
+
 
 body h1{
-	text-shadow: 3px 3px 3px white;
-    font-size: 5em;
+	
+    text-shadow: 3px 3px 3px white;
+    font-size: 4em;
+    color:inherit;
+}
+
+body .btn-success, .btn-success:hover {
+	background-color:#F2CC20;
+	border: 2px solid #F2CC20;
+    border-radius: 15px;
+    box-shadow: 3px 10px 5px grey;
+    color:inherit;
 }
 
 
 
+body {
+  font-size:2em;
+}
+
+.alert-danger {
+	display:none;
+	color:inherit;
+}
+
+.floatright {
+	float:right;
+}
+
+/* Mid section CSS */
+
+ .clownContainer {
+  background-image:url("images/irvinD2.jpg");
+  width:100%;
+  height:100%;
+  background-size:cover;
+  background-position:center;
+  }
+
+
+.midcont{
+    padding-top:100px;
+    padding-bottom:100px;
+    background-color:#F7F2E0;
+
+}
+
+.midcont p{
+  font-size:3em;
+}
+
+.msgKevin {
+  color:green;
+  background-color:yellow;
+}
 
 /* Video CSS */
 
 .playerBorder {
-	background-color:#pink;
-    padding:30px;
-    border:1px solid #999999; 
+	  background-color:white;
+    padding:15px;
+    border:3px solid #999999; 
+    box-shadow: 10px 10px 5px #888888;
 }
 
 /* Footer CSS */
@@ -30,213 +89,11 @@ body h1{
 
 
 
-
-/* End of CSS File */
-
-
-#container {
-	width: 780px;  /* using 20px less than a full 800px width allows for browser chrome and avoids a horizontal scroll bar */
-	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
-	text-align: left; /* this overrides the text-align: center on the body element. */
-}
-#mainContent {
-	padding: 0; /* remember that padding is the space inside the div box and margin is the space outside the div box */
-}
-
-a.navcur {
-	color: #592345;
-	text-decoration: underline; 
-	font-family: tahoma, verdana, arial, helvetica; 
-	font-size: 12px; 
-}
-a.navcur:visited {
-	color: #592345;
-	text-decoration: underline; 
-	font-family: tahoma, verdana, arial, helvetica; 
-	font-size: 12px; 
-}
-a.navcur:hover {
-	color: #592345; 
-	text-decoration: overline underline
-}
-a.navbar {
-	color: #592345;
-	text-decoration: none; 
-	font-family: tahoma, verdana, arial, helvetica; 
-	font-size: 12px;
-}
-a.navbar:visited {
-	color: #592345;
-	text-decoration: none; 
-	font-family: tahoma, verdana, arial, helvetica; 
-	font-size: 12px;
-}
-a.navbar:hover {
-	color: #592345; 
-	text-decoration: overline underline
-}
-table.calcase {
-	border: 1 solid #804C68; 
-	margin: 0; 
-	padding: 0 
-}
-td.calhead {
-	background-color: #D0A1C3
-}
-td.calevent {
-	background-color: #CCCCCC
-}
-td.FormShade {
-	background-color: #CCCCCC
-}
-td.FormHead {
-	background-color: #440038
-}
-font.FormHeader {
-	font-size: 14pt; 
-	font-family: tahoma, verdana, arial, helvetica; 
-	color: #FFFFFF; 
-	font-weight: bold 
-}
-font.FormLabel {
-	font-size: 10pt; 
-	font-family: tahoma, verdana, arial, helvetica; 
-	color: #00000; 
-}
-a.form {
-	color: #592345;
-	text-decoration: none; 
-	font-family: tahoma, verdana, arial, helvetica; 
-	font-size: 12px; 
-}
-
-a.form:visited {
-	color: #592345;
-	text-decoration: none; 
-	font-family: tahoma, verdana, arial, helvetica; 
-	font-size: 12px;
-}
-          
-a.form:hover {
-	color: #592345; 
-    text-decoration: overline underline
-}
-a {
-	color: #592345;
-	font-family: tahoma, verdana, arial, helvetica; 
-	font-size: 12px; 
-}
-a:visited {
-	color: #592345;
-	font-family: tahoma, verdana, arial, helvetica; 
-	font-size: 12px;
-}
-a:hover {
-	color: #592345; 
-	text-decoration: underline overline
-}
-a.item {
-	color: #000000;
-	font-family: tahoma, verdana, arial, helvetica; 
-	font-size: 12px; 
-}
-a.item:visited {
-	color: #000000;
-	font-family: tahoma, verdana, arial, helvetica; 
-	font-size: 12px;
-}
-a.item:hover {
-	color: #0000FF; 
-	text-decoration: underline overline
-}
-
-font.caltitle {
-	font-size: 12px; 
-	font-family: verdana, tahoma, arial, helvetica; 
-	color: #85347E;
-	font-weight: bold;
-}
-font.caldate {
-	font-size: 10px; 
-	font-family: verdana, tahoma, arial, helvetica; 
-	color: #85347E; 
-}
-
-font.calevent {
-	font-size: 10px; 
-	font-family: verdana, tahoma, arial, helvetica; 
-	color: #FFFFFF; 
-}
-font.item1 {
-	font-size: 12px; 
-	font-family: verdana, tahoma, arial, helvetica; 
-	color: #6C1067; 
-}
-font.item2 {
-	font-size: 12px; 
-	font-family: verdana, tahoma, arial, helvetica; 
-	color: #FFFFFF; 
-}
-font.item3 {
-	font-size: 12px; 
-	font-family: verdana, tahoma, arial, helvetica; 
-	color: #000000; 
-}
-.the_header2{
-    
-    background: url("images/irvinD2.jpg") center;
-    background-size: cover;
-   	background-repeat: no-repeat;
-   	background-color: #9C947D;
-   	color: #f8f8f8;
-}
-
-
-
-.intro-message2 > h1 {
-    margin: 0;
-    text-shadow: 3px 3px 3px white;
-    font-size: 5em;
-}
-
-
-	#bottom_paypal{ text-align:center}
-	#top_paypal{ text-align:center}
-
-
-
+.headersec{
+  padding-top:50px;
   
-  .center {
-  	text-align:center;
-  }
-  
-  #topm {
-  	padding-top:300px;
-  }
-  
-  #answer{
-  	margin-top:50px;
-  	display:none;
-  
-  	}
-  	
-#eanswer{
-  	margin-top:50px;
-  	display:none;
-  
-  	}
-  
-  #zipp {
-  	margin-top:50px;
-  	
-  	}
+}
 
-  	
-  	}
-
-
-  
-
-
-
--->
+.testme {
+  background-color:pink;
+}

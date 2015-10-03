@@ -1,3 +1,8 @@
+
+<?php
+// Start the session
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -11,7 +16,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 
 <!--- My sytle sheet ---->
-    <link rel="stylesheet" type="text/css" href="new_style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
     
     
   </head>
@@ -118,6 +123,7 @@
 
     </div>
   </div>
+ 
 
 <?php include 'footer.php';?>
 
@@ -142,10 +148,18 @@
   	
   	if($("#clownName").val() != "") {
 
-      
-      window.location.href = "clownie3.php";
-  	       
+   
+    $.post("setclownname.php?thecode="+$("#clownName").val(),function(data) {
   
+
+        if(data == 1) {
+  
+         window.location.href = "clownie3.php";
+       } else {
+       
+         $("#eanswer").html("Incorrect code!").fadeIn();
+       };
+    });
 	
 	} else {
 		$("#eanswer").html("Please enter your clown name.").fadeIn();
@@ -163,14 +177,14 @@
       event.preventDefault();
       
       if($("#clownName").val() != "") {
-
+alert(2);
         
         window.location.href = "clownie3.php";
         
 
 
       } else {
-        $("#eanswer").html("Please enter your clown name.").fadeIn();
+        $("#eanswer").html("Please enterss your clown name.").fadeIn();
 
       };
       
