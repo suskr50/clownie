@@ -5,7 +5,7 @@ session_start();
 
 
 if ($_POST['submit']=="Submit") {
-	$link = "http://localhost:8888/rfm/clownie1.php";
+	$link = "http://176.32.230.7/heartfalcons.com/RFM/clownie1.php";
 	$thecode = $_POST["code"];
 	$error = "";
 	if ($thecode == "clown") {

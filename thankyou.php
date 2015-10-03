@@ -9,7 +9,7 @@
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="new_style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
     
     
   </head>
