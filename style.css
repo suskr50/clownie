@@ -38,10 +38,7 @@ body {
   font-size:2em;
 }
 
-.alert-danger {
-	display:none;
-	color:inherit;
-}
+
 
 .floatright {
 	float:right;
